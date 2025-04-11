@@ -1,0 +1,42 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: feature-box.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Featured Boxes
+-----------------------------------------------------------------*/
+
+
+.fboxs{
+	.fbox {
+		margin-bottom: 1.875rem;
+
+		@include media-breakpoint-up(md) {
+			margin-bottom: 0;
+		}
+
+		.fbox-icon {
+			img {
+				margin-bottom: $spacer;
+				width: 10%;
+			}
+		}
+
+		.fbox-header {
+			h5 {
+				color: $white;
+				font-weight: 400;
+				font-family: $body-font;
+			}
+
+			p {
+				font-weight: 300;
+				margin-bottom: 0;
+				color: $gray-500;
+			}
+		}
+	}
+}
